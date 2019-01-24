@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('../fonts/MyriadProBold/MyriadProBold.ttf');
+}
+@media (max-width:649px){
+  .content{
+    background:url(../images/dialog_bg.png) no-repeat;
+    background-size:135% 100%;
+    padding:80px 10px
+  }
+    nav{
+      min-height:56px;
+      background:url(../images/nav_background.png) no-repeat;
+      background-position:100% 0;
+      background-size:100% 140%
+      }
+    nav ul{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      width:100%}
+      }
+      @media (max-width:400px){
+        h1{font-size:7rem
+          }
+      }
+      @media (min-width:400px){
+        h1{
+          font-size:9rem
+          }
+        }
+      @media (min-width:650px){
+        .content{
+          background:url(../images/dialog_bg.png) no-repeat;
+          background-size:100% 100%;
+          padding:60px 90px 60px 70px
+          }
+          nav ul{
+            display:grid;
+            grid-template-columns:repeat(4,1fr)
+            }
+          nav{
+            min-height:50px;
+            background:url(../../../../assets/sprites/navbarr.png) no-repeat;
+            background-position:100% 0;
+            background-size:100% 120%}
+            }
+          header,section{
+            min-height:100vh;
+            display:flex;
+            font-size:2.9rem
+            }
+          header{
+            background:url(../images/bg_4.png) no-repeat top;
+            background-size:cover;
+            background-position:25%
+            }
+          nav{
+              position:fixed;
+              width:100%;
+              font-size:2rem;
+              z-index:2
+              }
+          .wrapper{
+            width:100%;
+            max-width:1000px;
+            margin:auto;
+            height:100%;
+            display:flex
+            }
+          .gameplay .wrapper,header .wrapper{
+            justify-content:flex-start
+          }
+          .story .wrapper,nav .wrapper{
+              justify-content:flex-end
+              }
+            h1{
+              box-sizing:border-box;
+              max-width:550px;
+              cursor:pointer}
+            a.logo:hover{
+              filter:brightness(2)
+              }
+            a.start{
+              border-radius:20%;
+              padding:10px 20px
+              }
+            a.start:before{
+              content:"\F144";
+              font:6rem Consolas;
+              color:#ff1a00}
+            a.start:active{
+              padding:11px 20px 9px
+              }
+            a{
+              padding:3px 5px
+              text-decoration: none;
+              }
+            p{
+              margin:10px 5px
+              }
+            .play{
+              min-height:310px;
+              display:flex;
+              flex-direction:column;
+              justify-content:space-between;
+              align-items:center
+              }
+            section.story{
+              background:url(../../../../assets/sprites/wow-concept-art3.jpeg) no-repeat 50%;
+              background-size:cover
+              }
+            section.gameplay{
+              background:url(../../../../assets/sprites/wow-concept-art3.jpeg) no-repeat top;
+              background-size:cover
+              }
+            .content{
+              box-sizing:border-box;
+              max-width:650px;
+              background-position:43% top;
+              min-height:400px;
+              text-align:center}
+            section.screenshots{
+              background:url(../../../../assets/sprites/wow-concept-art3.jpeg) no-repeat top;
+              background-size:cover
+              }
+            section.screenshots .wrapper{
+              padding-bottom:20px
+              }
+            .images{
+              flex-direction:row;
+              align-items:center;
+              justify-content:center;
+              flex-wrap:wrap;
+              display:flex;
+              padding:20px;
+              margin:auto;
+              background:hsla(0,0%,100%,.5);
+              border-radius:5%
+              }
+              .screenshot,.screenshot img{
+                max-width:100%;
+                width:290px;
+                margin:15px;
+                cursor:pointer
+                }
+              .screenshot:hover{
+                transform:scale(1.7);
+                z-index:1
+                }
+              .screenshot.active{
+                position:fixed;
+                top:0;
+                left:0;
+                bottom:0;
+                right:0;
+                margin:auto;
+                transform:scale(2)
+                }
+                footer{
+                  position:absolute;
+                  bottom:0;
+                  height:100px;
+                  width:100%;
+                  background:url(../../../../assets/sprites/blue-footer-png-1.png);
+                  background-size:100% 100%;
+                  display:flex;
+                  justify-content:center;
+                  align-items:center;
+                  font-size:2rem;color:#ff1a00;
+                  text-shadow:1px 1px 1px #050505
+                  }
+
+                  a.githab:hover{
+                    filter:brightness(.9)
+                    }
+                  a.githab:active{
+                    text-shadow:0 0 2px #050505
+                  }
+
+                  a, a:link, a:visited, a:focus, a:hover, a:active{
+                    color:olive;
+                    text-decoration:none;
+                  }
+                  li{list-style-type:none;
+                      text-align: center;
+                      margin-right: 50px;}
